@@ -8,9 +8,6 @@ variable "profile" {
   default = "default"
 }
 
-#####################################################################
-################### Network Variable Declaration ####################
-#####################################################################
 variable "availability_zones_count" {
   description = "The number of AZs."
   type        = number
